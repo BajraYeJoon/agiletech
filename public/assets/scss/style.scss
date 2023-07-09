@@ -1,0 +1,69 @@
+/*
+Theme Name: AgileTech
+Theme URI: http://wowtheme7.com/html/agiletech
+Author: wowtheme7
+Author URI: http://wowtheme7.com
+Description: AglieTech - IT Solutions & Technology Html5 Template
+Version: 1.0.0
+*/
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Global
+    ## Global
+    ## Mixins
+    ## Theme
+    ## Variables
+    ## Common
+
+# Sections
+    ## Nav Bar
+    ## Banner
+    ## Brand Area
+    ## Footer
+    ## Widgets
+
+# Elements
+    ## accordion
+    ## filter
+    ## apartment
+    ## blog
+    ## city
+    ## feature
+    ## gallery
+    ## intro
+    ## main-search
+    ## pricing
+    ## service
+    ## team
+    ## user-list
+
+--------------------------------------------------------------*/
+
+//== Global Design
+@import "global/_mixins";
+@import "global/_variables";
+@import "global/_global";
+@import "global/_common";
+@import "global/_animate";
+
+//== Pages
+//== Sections
+@import "sections/_section-title";
+@import "sections/_navbar";
+@import "sections/_banner";
+@import "sections/_about";
+@import "sections/_service";
+@import "sections/_work-process";
+@import "sections/_team";
+@import "sections/_pricing";
+@import "sections/_case-study";
+@import "sections/_content";
+@import "sections/_testimonial";
+@import "sections/_section-style";
+@import "sections/_search";
+@import "sections/_widgets";
+@import "sections/_blog";
+@import "sections/project";
+@import "sections/_footer";
+@import "sections/_responsive";

@@ -1,0 +1,87 @@
+/*------------------------------------------------
+    ## Section title
+------------------------------------------------*/
+.section-title {
+  margin-bottom: 50px;
+  position: relative;
+  .sub-title {
+    border-radius: 30px;
+    box-shadow: 0 4.4px 30px rgba(19, 16, 34, 0.1);
+    background: #fff;
+    padding: 8px 20px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+  }
+  .sub-title-sky-blue {
+    border-radius: 0;
+    box-shadow: none;
+    background: transparent;
+    padding: 0;
+    color: #50af9b;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  .title {
+    margin-bottom: 0;
+    margin-top: 0;
+    span {
+      color: var(--main-color);
+    }
+  }
+  .content {
+    margin-top: 17px;
+    margin-bottom: 0;
+  }
+  .small-title {
+    margin-top: 18px;
+    line-height: 36px;
+  }
+  .phone {
+    font-weight: 400;
+    margin-top: 30px;
+    img {
+      margin-right: 6px;
+    }
+  }
+  .single-list-wrap {
+    margin-top: 21px;
+  }
+  .btn {
+    margin-top: 30px;
+  }
+  &.style-white {
+    .sub-title {
+      color: var(--main-color);
+      &.left-line {
+        &:before {
+          background: #fff;
+        }
+      }
+      &.right-line {
+        &:after {
+          background: #fff;
+        }
+      }
+      &.double-line {
+        &:before {
+          background: #fff;
+        }
+        &:after {
+          background: #fff;
+        }
+      }
+    }
+    .title {
+      color: #fff;
+    }
+    .content {
+      color: #fff;
+    }
+    .small-title {
+      color: #fff;
+    }
+  }
+}

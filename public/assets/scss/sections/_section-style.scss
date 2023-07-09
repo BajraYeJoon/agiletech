@@ -1,0 +1,118 @@
+.faq-area-margin-top {
+  margin-top: -120px;
+}
+.case-study-area {
+  .animate-img-1 {
+    position: absolute;
+    bottom: 130px;
+    left: 90px;
+    width: 50px;
+  }
+}
+
+.contact-inner-1 {
+  margin-top: -120px;
+  position: relative;
+  z-index: 2;
+  .animate-img-1 {
+    position: absolute;
+    left: -30px;
+    bottom: -30px;
+    z-index: -1;
+  }
+  .animate-img-2 {
+    position: absolute;
+    right: -30px;
+    bottom: -30px;
+  }
+  .section-title {
+    background: #fff;
+    padding: 50px;
+    margin-left: -190px;
+    margin-top: 50px;
+    border-radius: 5px;
+    box-shadow: $box-shadow;
+    .title {
+      font-size: 35px;
+    }
+  }
+}
+
+.contact-page-list {
+  margin-bottom: -110px;
+  position: relative;
+}
+.contact-page-inner {
+  padding: 100px;
+  border-radius: 10px;
+}
+
+.contact-g-map {
+  margin-bottom: -100px;
+  iframe {
+    width: 100%;
+    height: 550px;
+  }
+}
+
+.career-wrap-area {
+  background: #f8f9fc;
+  border-radius: 5px;
+}
+.career-nav-tab {
+  border-bottom: 1px solid #ebebeb !important;
+  button {
+    border: 0 !important;
+    border-right: 1px solid #ebebeb !important;
+    background: transparent !important;
+    width: 25%;
+    font-weight: 600;
+    color: var(--heading-color);
+    padding: 15px 6px;
+    &:last-child {
+      border-right: 0 !important;
+    }
+    &.active {
+      color: var(--main-color) !important;
+    }
+  }
+}
+.career-wrap {
+  padding: 60px;
+}
+
+.project-nav-tab {
+  border-bottom: 0 !important;
+  background: #f8f9fc;
+  padding: 5px 15px;
+  border-radius: 5px;
+  button {
+    border: 0 !important;
+    background: transparent !important;
+    font-weight: 600;
+    color: var(--heading-color);
+    padding: 5px 15px;
+    &:last-child {
+      border-right: 0 !important;
+    }
+    &.active {
+      color: var(--main-color) !important;
+    }
+  }
+}
+
+.counter-4-area {
+  position: relative;
+  .counter-4-title {
+    background: rgba(255, 255, 255, 0.1);
+    display: inline-block;
+    padding: 35px 40px;
+    color: #fff;
+    min-width: 200px;
+  }
+}
+.about-area-margin-bottom {
+  position: relative;
+  margin-bottom: -120px;
+  z-index: 2;
+}

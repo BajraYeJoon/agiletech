@@ -1,0 +1,229 @@
+/*----------------------------------------------
+    # about style
+----------------------------------------------*/
+.about-thumb-inner {
+  position: relative;
+  .animate-img-1 {
+    position: absolute;
+    left: 100px;
+    bottom: 7px;
+    z-index: 2;
+  }
+  .top_image_bounce {
+    z-index: 9;
+  }
+  .animate-img-2 {
+    position: absolute;
+    right: 50px;
+    top: 180px;
+    z-index: 2;
+  }
+  .animate-img-3 {
+    position: absolute;
+    left: 80px;
+    top: -20px;
+  }
+  .animate-img-4 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  .animate-img-bottom-right {
+    position: absolute;
+    right: -100px;
+    bottom: 80px;
+    z-index: 2;
+  }
+  .animate-main-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .main-img {
+    position: relative;
+    z-index: 1;
+  }
+  .video-play-btn-hover {
+    position: absolute;
+    right: 10px;
+    top: 60px;
+    z-index: 9;
+  }
+}
+
+.single-about-inner {
+  .thumb {
+    display: inline-block;
+    background: #f8f9fc;
+    border-radius: 5px 40px 40px 40px;
+    height: 80px;
+    width: 80px;
+    line-height: 78px;
+    text-align: center;
+    transition: 0.4s;
+    img {
+      transition: 0.4s;
+    }
+  }
+  .details {
+    p {
+      margin-bottom: 0;
+    }
+  }
+  &:hover {
+    .thumb {
+      background: var(--main-color);
+      img {
+        filter: brightness(100);
+      }
+    }
+  }
+}
+
+.accordion-inner {
+  .accordion-item {
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #e3e3e3;
+    .accordion-button {
+      background: transparent;
+      font-size: 20px;
+      padding: 22px 0;
+      box-shadow: none;
+      color: var(--main-color);
+      font-weight: 600;
+      &.collapsed {
+        color: var(--heading-color);
+      }
+    }
+    .accordion-body {
+      padding: 0 0 30px 0;
+    }
+  }
+  &.accordion-icon-left {
+    .accordion-item {
+      .accordion-button {
+        padding-left: 50px;
+        &:after {
+          left: 0;
+          position: absolute;
+        }
+      }
+    }
+  }
+  &.style-2 {
+    .accordion-item {
+      .accordion-button {
+        &.collapsed {
+          color: var(--heading-color);
+          &:after {
+            content: "+";
+            font-size: 20px;
+          }
+        }
+        &:after {
+          content: "-";
+          background-image: none !important;
+          font-size: 22px;
+          transform: rotate(0);
+          width: 30px;
+          height: 30px;
+          line-height: 24px;
+          background: var(--main-color);
+          color: #fff;
+          text-align: center;
+          border-radius: 6px;
+        }
+      }
+    }
+  }
+  &.style-3 {
+    .accordion-item {
+      border: 1px solid #e3e3e3;
+      margin-bottom: 20px;
+      border-radius: 5px;
+      padding: 0 20px;
+      .accordion-button {
+        &.collapsed {
+          color: var(--heading-color);
+          &:after {
+            content: "+";
+            font-size: 20px;
+          }
+        }
+        &:after {
+          content: "-";
+          background-image: none !important;
+          font-size: 22px;
+          transform: rotate(0);
+          width: 30px;
+          height: 30px;
+          line-height: 24px;
+          background: var(--main-color);
+          color: #fff;
+          text-align: center;
+          border-radius: 6px;
+        }
+      }
+    }
+  }
+}
+
+.single-progressbar {
+  background: #fff;
+  border-radius: 0px;
+  margin-top: 0px;
+  h6 {
+    font-size: 14px;
+    font-weight: 700;
+    display: inline-block;
+    margin-bottom: 0;
+  }
+  .skill {
+    overflow: hidden;
+    padding: 40px 0 5px;
+    position: relative;
+    margin-bottom: 10px;
+    margin-top: -30px;
+    &:before {
+      width: 100%;
+      height: 10px;
+      content: "";
+      display: block;
+      position: absolute;
+      background: #f2f2f2;
+      border-radius: 10px;
+      bottom: 5px;
+    }
+    p {
+      position: absolute;
+      right: 0;
+      top: 0px;
+      font-size: 14px;
+      font-weight: 700;
+      font-family: var(--heading-font);
+      color: var(--main-color);
+    }
+  }
+}
+.skill-bar {
+  width: 100%;
+  height: 10px;
+  background: var(--main-color);
+  display: block;
+  position: relative;
+  border-radius: 10px;
+  .skill-count1 {
+    right: -17px;
+    position: absolute;
+    top: -30px;
+    padding: 3px 0;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: var(--heading-font);
+    color: var(--heading-color);
+    p {
+      margin: 0 -3px 0 0;
+    }
+  }
+}

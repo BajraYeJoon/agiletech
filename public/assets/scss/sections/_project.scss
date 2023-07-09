@@ -1,0 +1,50 @@
+.single-project-inner {
+  position: relative;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  .details {
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    color: var(--main-color);
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.4s;
+    span {
+      display: block;
+      margin-bottom: 10px;
+    }
+    a {
+      color: var(--main-color);
+    }
+  }
+  &:after {
+    content: "";
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    top: 20px;
+    bottom: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    z-index: 1;
+    border-radius: 50px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.4s;
+  }
+  &:hover {
+    .details {
+      top: 50%;
+      visibility: visible;
+      opacity: 1;
+    }
+    &:after {
+      visibility: visible;
+      opacity: 1;
+      border-radius: 10px;
+    }
+  }
+}
