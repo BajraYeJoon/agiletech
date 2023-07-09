@@ -3,7 +3,6 @@ import AboutAreaFive from "../UI/AboutAreaFive";
 import AboutAreaSix from "../UI/AboutAreaSix";
 import BannerFive from "../UI/BannerFive";
 
-import CaseStudyAreaTwo from "../UI/CaseStudyAreaTwo";
 import FooterFour from "../UI/FooterFour";
 import NavbarFour from "../UI/NavbarFour";
 import ServiceAreaFive from "../UI/ServiceAreaFive";
@@ -27,7 +26,6 @@ const HomeFive = () => {
       <ServiceAreaFive />
 
       {/* Case Study Area Two */}
-      <CaseStudyAreaTwo />
 
       {/* About Area Six */}
       <AboutAreaSix />
